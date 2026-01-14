@@ -1,4 +1,4 @@
-using System;
+using System; //Vi bruker mye console så derfor bruker vi «using System;»
 using Uke2_øvelser; //Klassen fra filen "Person.cs
 /* Øvselse 4: Vi lager en konstruktør for å lage en objekt av vår klasse */
 
@@ -21,6 +21,3 @@ p.VisInformasjon();
 string pNavn = p.GetNavn(); //Henter navnet fra objektet p
 Console.WriteLine(pNavn);  // skriver ut en variabel, brukes når man trenger navnet flere ganger.
 Console.WriteLine(p.GetNavn()); //Henter navnet fra objektet p og skriver den ut. Brukser når man trenger den en gang.
-
-/*Øvelse 1: deklarerer to variabler med meningsfulle navn og tilpassende datatyper. 
-Gjennomfø +, -, * og / operasjoner på de to variablene og legg resultatet i en variabel. Skriv ut resultatet. */
